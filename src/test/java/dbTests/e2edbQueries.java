@@ -1,6 +1,6 @@
-package testCases;
+package dbTests;
 
-public class WorldQueryTests {
+public class e2edbQueries {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

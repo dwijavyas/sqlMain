@@ -4,6 +4,8 @@
 .settings/
 bin/
 target/
+config/*.properties
+
 
 # OS & IDE
 *.log
