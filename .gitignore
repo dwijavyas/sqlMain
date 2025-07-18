@@ -1,0 +1,12 @@
+# Eclipse & Java
+.classpath
+.project
+.settings/
+bin/
+target/
+
+# OS & IDE
+*.log
+*.iml
+.idea/
+.DS_Store
