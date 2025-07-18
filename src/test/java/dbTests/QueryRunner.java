@@ -9,8 +9,12 @@ public class QueryRunner {
 		System.out.println("Running Sakila Queries");
 		SakilaQueries.run();
 				
-		System.out.println("Running World Queries");
+		System.out.println("\n Running World Queries");
 		WorldQueries.run();
+		
+		System.out.println("\n Running e2edbt Queries");
+		E2EdbtQueries.run();
+		
 		
 
 	}

@@ -1,6 +1,6 @@
 package db;
 
-import java.io.FileInputStream;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.Properties;
@@ -13,8 +13,8 @@ public class DBManager {
 		
 		try {
 			
-			String propFileName = "/config.db_"+dbName+".properties"; 
-			FileInputStream fis = new FileInputStream(propFileName);
+			String propFileName = "db_" + dbName + ".properties"; 
+			InputStream fis = DBManager.class.getClassLoader().getResourceAsStream(propFileName);
 			Properties prop = new Properties();
 			prop.load(fis);
 			

@@ -17,7 +17,7 @@ public class WorldQueries {
 		Statement s = conn.createStatement();
 		
 		
-		System.out.println("\\n-- World: Top 5 populated cities --");
+		System.out.println("\n-- World: Top 5 populated cities --");
 		String query1 = "SELECT Name, Population FROM city ORDER BY Population DESC LIMIT 5";
 		ResultSet rs1 = s.executeQuery(query1);
 		

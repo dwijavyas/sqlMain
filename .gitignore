@@ -4,7 +4,7 @@
 .settings/
 bin/
 target/
-config/*.properties
+/*.properties
 
 
 # OS & IDE
