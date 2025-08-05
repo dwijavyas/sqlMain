@@ -5,6 +5,7 @@
 bin/
 target/
 /*.properties
+src/main/resources
 
 
 # OS & IDE
